@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="zephyr_with_ardupilot">
+    <include><uri>model://zephyr</uri></include>
+
+    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher"></plugin>
+
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.13</a0><cla>3.7</cla><cda>0.064</cda><cma>0.0</cma>
+      <alpha_stall>0.339</alpha_stall><cla_stall>-3.85</cla_stall><cda_stall>-0.923</cda_stall><cma_stall>0.0</cma_stall>
+      <cp>0 -0.1 0</cp><area>0.50</area><air_density>1.2041</air_density>
+      <forward>0 -1 0</forward><upward>0 0 1</upward><link_name>zephyr::wing</link_name>
+    </plugin>
+
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.15</a0><cla>6.8</cla><cda>0.064</cda><cma>0.0</cma>
+      <alpha_stall>0.639</alpha_stall><cla_stall>-3.85</cla_stall><cda_stall>-0.923</cda_stall><cma_stall>0.0</cma_stall>
+      <cp>0.7 0.20 0</cp><area>0.10</area><air_density>1.2041</air_density>
+      <forward>0 -1 0</forward><upward>0 0 1</upward><link_name>zephyr::wing</link_name>
+      <control_joint_name>zephyr::flap_left_joint</control_joint_name><control_joint_rad_to_cl>-5.0</control_joint_rad_to_cl>
+    </plugin>
+
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.15</a0><cla>6.8</cla><cda>0.064</cda><cma>0.0</cma>
+      <alpha_stall>0.639</alpha_stall><cla_stall>-3.85</cla_stall><cda_stall>-0.923</cda_stall><cma_stall>0.0</cma_stall>
+      <cp>-0.7 0.20 0</cp><area>0.10</area><air_density>1.2041</air_density>
+      <forward>0 -1 0</forward><upward>0 0 1</upward><link_name>zephyr::wing</link_name>
+      <control_joint_name>zephyr::flap_right_joint</control_joint_name><control_joint_rad_to_cl>-5.0</control_joint_rad_to_cl>
+    </plugin>
+
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.0</a0><cla>4.752</cla><cda>0.641</cda><cp>-0.76 0.30 0.025</cp><area>0.12</area>
+      <forward>0 -1 0</forward><upward>1 0 0</upward><link_name>zephyr::wing</link_name>
+    </plugin>
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.0</a0><cla>4.752</cla><cda>0.641</cda><cp>0.76 0.30 0.025</cp><area>0.12</area>
+      <forward>0 -1 0</forward><upward>1 0 0</upward><link_name>zephyr::wing</link_name>
+    </plugin>
+
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.30</a0><alpha_stall>1.4</alpha_stall><cla>4.2500</cla><cda>0.10</cda><area>0.02</area>
+      <cp>0 0 0.074205</cp><forward>-1 0 0</forward><upward>0 -1 0</upward><link_name>zephyr::propeller</link_name>
+    </plugin>
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.30</a0><alpha_stall>1.4</alpha_stall><cla>4.2500</cla><cda>0.10</cda><area>0.02</area>
+      <cp>0 0 -0.074205</cp><forward>1 0 0</forward><upward>0 -1 0</upward><link_name>zephyr::propeller</link_name>
+    </plugin>
+
+    <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce"><joint_name>zephyr::propeller_joint</joint_name></plugin>
+    <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce"><joint_name>zephyr::flap_left_joint</joint_name></plugin>
+    <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce"><joint_name>zephyr::flap_right_joint</joint_name></plugin>
+
+    <link name="camera_front_sensor_link">
+      <sensor name="camera_front" type="camera">
+        <parent>zephyr::camera_front_link</parent>
+        <always_on>1</always_on><update_rate>30</update_rate>
+        <camera><horizontal_fov>1.2217</horizontal_fov><image><width>1280</width><height>720</height></image><clip><near>0.1</near><far>500</far></clip></camera>
+        <topic>/zephyr/camera/front/image_raw</topic>
+      </sensor>
+    </link>
+
+    <plugin name="ArduPilotPlugin" filename="ArduPilotPlugin">
+      <fdm_addr>127.0.0.1</fdm_addr><fdm_port_in>9002</fdm_port_in><lock_step>1</lock_step><no_time_sync>1</no_time_sync>
+      <modelXYZToAirplaneXForwardZDown degrees="true">0 0 0 180 0 -90</modelXYZToAirplaneXForwardZDown>
+      <gazeboXYZToNED degrees="true">0 0 0 180 0 90</gazeboXYZToNED>
+      <imuName>zephyr::imu_link::imu_sensor</imuName>
+      <control channel="2"><jointName>zephyr::propeller_joint</jointName><useForce>1</useForce><multiplier>838</multiplier><offset>0</offset><type>VELOCITY</type></control>
+      <control channel="0"><jointName>zephyr::flap_left_joint</jointName><useForce>1</useForce><multiplier>-1.048</multiplier><offset>-0.5</offset><type>POSITION</type></control>
+      <control channel="1"><jointName>zephyr::flap_right_joint</jointName><useForce>1</useForce><multiplier>-1.048</multiplier><offset>-0.5</offset><type>POSITION</type></control>
+    </plugin>
+  </model>
+</sdf>

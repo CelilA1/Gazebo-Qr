@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="qr_engelli">
+    <static>true</static>
+
+    <link name="ground">
+      <visual name="visual">
+        <geometry><box><size>20 20 0.05</size></box></geometry>
+        <material>
+          <ambient>0.4 0.7 0.3 1</ambient>
+          <diffuse>0.4 0.7 0.3 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="link">
+      <pose>0 0 0.06 0 0 0</pose>
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>2 2</size>
+          </plane>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/qr_code.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <!-- Varil 1 - 10m yüksek -->
+    <link name="barrel1">
+      <pose>4 2.5 5.0 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.4</radius><length>10.0</length></cylinder></geometry>
+        <material><ambient>0.8 0.2 0.1 1</ambient><diffuse>0.8 0.2 0.1 1</diffuse></material>
+      </visual>
+    </link>
+
+    <!-- Varil 2 - 10m yüksek -->
+    <link name="barrel2">
+      <pose>-4 -2.5 5.0 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.4</radius><length>10.0</length></cylinder></geometry>
+        <material><ambient>0.8 0.5 0.1 1</ambient><diffuse>0.8 0.5 0.1 1</diffuse></material>
+      </visual>
+    </link>
+
+    <!-- Kasa 1 - 10m yüksek -->
+    <link name="box1">
+      <pose>5 -3.5 5.0 0 0 0.5</pose>
+      <visual name="visual">
+        <geometry><box><size>2.0 1.5 10.0</size></box></geometry>
+        <material><ambient>0.5 0.4 0.2 1</ambient><diffuse>0.5 0.4 0.2 1</diffuse></material>
+      </visual>
+    </link>
+
+    <!-- Kasa 2 - 7.5m yüksek -->
+    <link name="box2">
+      <pose>-5 4 3.75 0 0 -0.3</pose>
+      <visual name="visual">
+        <geometry><box><size>1.8 1.8 7.5</size></box></geometry>
+        <material><ambient>0.5 0.4 0.2 1</ambient><diffuse>0.5 0.4 0.2 1</diffuse></material>
+      </visual>
+    </link>
+
+    <!-- Direk 1 - 25m -->
+    <link name="pole1">
+      <pose>-4 -5 12.5 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.1</radius><length>25.0</length></cylinder></geometry>
+        <material><ambient>0.6 0.6 0.6 1</ambient><diffuse>0.6 0.6 0.6 1</diffuse></material>
+      </visual>
+    </link>
+
+    <!-- Direk 2 - 20m -->
+    <link name="pole2">
+      <pose>5 5 10.0 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.1</radius><length>20.0</length></cylinder></geometry>
+        <material><ambient>0.6 0.6 0.6 1</ambient><diffuse>0.6 0.6 0.6 1</diffuse></material>
+      </visual>
+    </link>
+
+    <!-- Araç - 8m yüksek -->
+    <link name="vehicle">
+      <pose>-6 1 4.0 0 0 0.8</pose>
+      <visual name="visual">
+        <geometry><box><size>4.0 1.8 8.0</size></box></geometry>
+        <material><ambient>0.2 0.3 0.6 1</ambient><diffuse>0.2 0.3 0.6 1</diffuse></material>
+      </visual>
+    </link>
+
+    <link name="plate_north">
+      <pose>0 2.0606 1.0606 -0.785398 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>2 0.05 3</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="plate_south">
+      <pose>0 -2.0606 1.0606 0.785398 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>2 0.05 3</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="plate_east">
+      <pose>2.0606 0 1.0606 0 0.785398 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.05 2 3</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="plate_west">
+      <pose>-2.0606 0 1.0606 0 -0.785398 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.05 2 3</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

@@ -1,0 +1,87 @@
+[0.009s] Invoking command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(iha_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(iha_env) /usr/bin/cmake --build /home/celil/ardupilot_gazebo/build/ardupilot_gazebo -- -j16 -l16
+[0.074s] [ 20%] Built target CameraZoomPlugin
+[0.074s] [ 40%] Built target ParachutePlugin
+[0.076s] [ 80%] Built target ArduPilotPlugin
+[0.076s] [100%] Built target GstCameraPlugin
+[0.089s] Invoked command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(iha_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(iha_env) /usr/bin/cmake --build /home/celil/ardupilot_gazebo/build/ardupilot_gazebo -- -j16 -l16
+[0.104s] Invoking command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(iha_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(iha_env) /usr/bin/cmake --install /home/celil/ardupilot_gazebo/build/ardupilot_gazebo
+[0.115s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/config
+[0.116s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models
+[0.116s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_egimli
+[0.116s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_egimli/materials
+[0.116s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_egimli/materials/textures
+[0.116s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_1d
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_1d/meshes
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_beton
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_beton/materials
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_beton/materials/textures
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_golge
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_golge/materials
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_golge/materials/textures
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_parlak
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_parlak/materials
+[0.117s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_parlak/materials/textures
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d/meshes
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_standoffs
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_standoffs/meshes
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr_with_parachute
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_gimbal
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydinlatma
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydinlatma/materials
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydinlatma/materials/textures
+[0.118s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_kismigolge
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_kismigolge/materials
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_kismigolge/materials/textures
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_engelli
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_engelli/materials
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_engelli/materials/textures
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydınlatma
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydınlatma/materials
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydınlatma/materials/textures
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_cimen
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_cimen/materials
+[0.119s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_cimen/materials/textures
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_target
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_target/materials
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_target/materials/textures
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_toprak
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_toprak/materials
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_toprak/materials/textures
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/parachute_small
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/parachute_small/meshes
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/propeller_cw.dae
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/rudder.dae
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/iris_prop_ccw.dae
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/propeller_ccw.dae
+[0.120s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/right_flap.dae
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/iris_prop_cw.dae
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/right_aileron.dae
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/left_flap.dae
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/left_aileron.dae
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/elevators.dae
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/meshes/body.dae
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/model.config
+[0.121s] -- Installing: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/rc_cessna/model.sdf
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/meshes
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/materials
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/materials/textures
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/thumbnails
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_2d
+[0.121s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_2d/meshes
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr_with_ardupilot
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karisik
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karisik/materials
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karisik/materials/textures
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/meshes
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_ardupilot
+[0.122s] -- Up-to-date: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds
+[0.122s] -- Installing: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/package.dsv
+[0.123s] Invoked command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(iha_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(iha_env) /usr/bin/cmake --install /home/celil/ardupilot_gazebo/build/ardupilot_gazebo

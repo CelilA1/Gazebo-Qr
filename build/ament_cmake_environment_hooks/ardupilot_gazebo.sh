@@ -1,0 +1,3 @@
+ament_prepend_unique_value GZ_SIM_RESOURCE_PATH "$AMENT_CURRENT_PREFIX/share/ardupilot_gazebo/models"
+ament_prepend_unique_value GZ_SIM_RESOURCE_PATH "$AMENT_CURRENT_PREFIX/share/ardupilot_gazebo/worlds"
+ament_prepend_unique_value GZ_SIM_PLUGIN_PATH "$AMENT_CURRENT_PREFIX/lib/ardupilot_gazebo"

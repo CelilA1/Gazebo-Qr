@@ -1,0 +1,410 @@
+[0.006s] Invoking command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/home/celil/iha_ws/install/px4_ros_com:/home/celil/iha_ws/install/px4_msgs:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/celil/ardupilot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/celil/ardupilot_gazebo/install/ardupilot_gazebo
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.102s] -- The CXX compiler identification is GNU 13.3.0
+[0.116s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.214s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.459s] -- Found Python3: /home/celil/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.554s] Building ardupilot_gazebo as an `ament_cmake` project.
+[0.560s] -- Looking for gz-common5 -- found version 5.7.1
+[0.560s] -- Searching for dependencies of gz-common5
+[0.561s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.561s] -- Searching for dependencies of gz-utils2
+[0.562s] -- Looking for dlfcn.h - found
+[0.568s] -- Looking for libdl - found
+[0.569s] -- Found DL: TRUE  
+[0.572s] -- Checking for module 'uuid'
+[0.582s] --   Found uuid, version 2.39.3
+[0.607s] -- Found UUID: TRUE  
+[0.607s] -- Looking for gz-common5 - found
+[0.607s] 
+[0.609s] -- Looking for gz-rendering8 -- found version 8.2.3
+[0.609s] -- Searching for dependencies of gz-rendering8
+[0.610s] -- Looking for gz-math7 -- found version 7.5.2
+[0.610s] -- Searching for dependencies of gz-math7
+[0.610s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.611s] -- Searching for <gz-math7> component [eigen3]
+[0.613s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[0.613s] -- Searching for dependencies of gz-math7-eigen3
+[0.619s] -- Looking for gz-common5 -- found version 5.7.1
+[0.619s] -- Searching for dependencies of gz-common5
+[0.619s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.619s] -- Looking for dlfcn.h - found
+[0.619s] -- Looking for libdl - found
+[0.624s] -- Searching for <gz-common5> component [graphics]
+[0.625s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[0.625s] -- Searching for dependencies of gz-common5-graphics
+[0.625s] -- Looking for gz-math7 -- found version 7.5.2
+[0.629s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[0.629s] -- Searching for <gz-common5> component [events]
+[0.630s] -- Looking for gz-common5-events -- found version 5.7.1
+[0.630s] -- Searching for dependencies of gz-common5-events
+[0.630s] -- Looking for gz-math7 -- found version 7.5.2
+[0.630s] -- Searching for <gz-common5> component [geospatial]
+[0.631s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[0.631s] -- Searching for dependencies of gz-common5-geospatial
+[0.631s] -- Looking for gz-math7 -- found version 7.5.2
+[0.632s] -- Looking for gz-common5 -- found version 5.7.1
+[0.633s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.633s] -- Searching for dependencies of gz-plugin2
+[0.633s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.633s] -- Searching for dependencies of gz-utils2
+[0.633s] -- Searching for <gz-utils2> component [cli]
+[0.634s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[0.634s] -- Searching for dependencies of gz-utils2-cli
+[0.635s] -- Searching for <gz-plugin2> component [all]
+[0.636s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[0.636s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.638s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[0.638s] -- Searching for dependencies of gz-plugin2-loader
+[0.639s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[0.639s] -- Searching for dependencies of gz-plugin2-register
+[0.640s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.650s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[0.651s] -- Looking for gz-rendering8 - found
+[0.651s] 
+[0.652s] -- Looking for gz-sim8 -- found version 8.10.0
+[0.652s] -- Searching for dependencies of gz-sim8
+[0.653s] -- Looking for sdformat14 -- found version 14.8.0
+[0.653s] -- Searching for dependencies of sdformat14
+[0.657s] -- Checking for module 'tinyxml2'
+[0.670s] --   Found tinyxml2, version 10.0.0
+[0.697s] -- Looking for gz-math7 -- found version 7.5.2
+[0.697s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.698s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.700s] -- Looking for gz-transport13 -- found version 13.5.0
+[0.700s] -- Searching for dependencies of gz-transport13
+[0.800s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[0.808s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.812s] -- Checking for module 'libzmq >= 4'
+[0.824s] --   Found libzmq, version 4.3.5
+[0.860s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.866s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.866s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.867s] -- Searching for dependencies of gz-msgs10
+[0.881s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.881s] -- Looking for gz-math7 -- found version 7.5.2
+[0.887s] -- Searching for <gz-transport13> component [log]
+[0.888s] -- Looking for gz-transport13-log -- found version 13.5.0
+[0.888s] -- Searching for dependencies of gz-transport13-log
+[0.888s] -- Searching for <gz-transport13> component [parameters]
+[0.889s] -- Looking for gz-transport13-parameters -- found version 13.5.0
+[0.889s] -- Searching for dependencies of gz-transport13-parameters
+[0.890s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.890s] -- Looking for gz-common5 -- found version 5.7.1
+[0.890s] -- Searching for dependencies of gz-common5
+[0.890s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.890s] -- Looking for dlfcn.h - found
+[0.890s] -- Looking for libdl - found
+[0.897s] -- Searching for <gz-common5> component [av]
+[0.899s] -- Looking for gz-common5-av -- found version 5.7.1
+[0.899s] -- Searching for dependencies of gz-common5-av
+[0.904s] -- Checking for module 'libswscale'
+[0.916s] --   Found libswscale, version 7.5.100
+[0.945s] -- Found SWSCALE: TRUE  
+[0.949s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.961s] --   Found libavdevice, version 60.3.100
+[1.003s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.009s] -- Checking for module 'libavformat'
+[1.021s] --   Found libavformat, version 60.16.100
+[1.054s] -- Found AVFORMAT: TRUE  
+[1.059s] -- Checking for module 'libavcodec'
+[1.071s] --   Found libavcodec, version 60.31.102
+[1.100s] -- Found AVCODEC: TRUE  
+[1.104s] -- Checking for module 'libavutil'
+[1.121s] --   Found libavutil, version 58.29.100
+[1.150s] -- Found AVUTIL: TRUE  
+[1.151s] -- Searching for <gz-common5> component [events]
+[1.151s] -- Searching for <gz-common5> component [graphics]
+[1.151s] -- Searching for <gz-common5> component [io]
+[1.153s] -- Looking for gz-common5-io -- found version 5.7.1
+[1.153s] -- Searching for dependencies of gz-common5-io
+[1.153s] -- Searching for <gz-common5> component [profiler]
+[1.155s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[1.155s] -- Searching for dependencies of gz-common5-profiler
+[1.157s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[1.157s] -- Searching for dependencies of gz-fuel_tools9
+[1.227s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[1.234s] -- Checking for module 'jsoncpp'
+[1.245s] --   Found jsoncpp, version 1.9.5
+[1.273s] -- Found JSONCPP: TRUE  
+[1.287s] -- Checking for module 'yaml-0.1'
+[1.300s] --   Found yaml-0.1, version 0.2.5
+[1.330s] -- Found YAML: TRUE  
+[1.335s] -- Checking for module 'libzip'
+[1.349s] --   Found libzip, version 1.7.3
+[1.389s] -- Found ZIP: TRUE  
+[1.390s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.390s] -- Looking for gz-common5 -- found version 5.7.1
+[1.390s] -- Searching for dependencies of gz-common5
+[1.390s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.390s] -- Looking for dlfcn.h - found
+[1.390s] -- Looking for libdl - found
+[1.396s] -- Searching for <gz-common5> component [testing]
+[1.398s] -- Looking for gz-common5-testing -- found version 5.7.1
+[1.398s] -- Searching for dependencies of gz-common5-testing
+[1.399s] -- Looking for gz-math7 -- found version 7.5.2
+[1.400s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.401s] -- Looking for gz-gui8 -- found version 8.4.0
+[1.402s] -- Searching for dependencies of gz-gui8
+[1.423s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.423s] -- Looking for gz-math7 -- found version 7.5.2
+[1.423s] -- Looking for gz-common5 -- found version 5.7.1
+[1.423s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.424s] -- Looking for gz-transport13 -- found version 13.5.0
+[1.424s] -- Looking for gz-rendering8 -- found version 8.2.3
+[1.424s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.438s] -- Looking for gz-physics7 -- found version 7.6.0
+[1.438s] -- Searching for dependencies of gz-physics7
+[1.439s] -- Looking for gz-common5 -- found version 5.7.1
+[1.439s] -- Looking for gz-math7 -- found version 7.5.2
+[1.439s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.440s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.440s] -- Searching for <gz-physics7> component [heightmap]
+[1.441s] -- Looking for gz-physics7-heightmap -- found version 7.6.0
+[1.441s] -- Searching for dependencies of gz-physics7-heightmap
+[1.441s] -- Looking for gz-common5 -- found version 5.7.1
+[1.441s] -- Searching for <gz-physics7> component [mesh]
+[1.442s] -- Looking for gz-physics7-mesh -- found version 7.6.0
+[1.442s] -- Searching for dependencies of gz-physics7-mesh
+[1.442s] -- Looking for gz-common5 -- found version 5.7.1
+[1.443s] -- Searching for <gz-physics7> component [sdf]
+[1.443s] -- Looking for gz-physics7-sdf -- found version 7.6.0
+[1.443s] -- Searching for dependencies of gz-physics7-sdf
+[1.444s] -- Looking for sdformat14 -- found version 14.8.0
+[1.445s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.445s] -- Searching for dependencies of gz-sensors8
+[1.458s] -- Looking for gz-math7 -- found version 7.5.2
+[1.458s] -- Looking for gz-common5 -- found version 5.7.1
+[1.458s] -- Looking for gz-transport13 -- found version 13.5.0
+[1.458s] -- Looking for gz-rendering8 -- found version 8.2.3
+[1.459s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.459s] -- Looking for sdformat14 -- found version 14.8.0
+[1.459s] -- Searching for <gz-sensors8> component [air_pressure]
+[1.460s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[1.460s] -- Searching for dependencies of gz-sensors8-air_pressure
+[1.460s] -- Searching for <gz-sensors8> component [air_speed]
+[1.461s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[1.461s] -- Searching for dependencies of gz-sensors8-air_speed
+[1.461s] -- Searching for <gz-sensors8> component [altimeter]
+[1.462s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[1.462s] -- Searching for dependencies of gz-sensors8-altimeter
+[1.462s] -- Searching for <gz-sensors8> component [imu]
+[1.462s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[1.463s] -- Searching for dependencies of gz-sensors8-imu
+[1.463s] -- Searching for <gz-sensors8> component [force_torque]
+[1.463s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[1.463s] -- Searching for dependencies of gz-sensors8-force_torque
+[1.464s] -- Searching for <gz-sensors8> component [logical_camera]
+[1.464s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[1.465s] -- Searching for dependencies of gz-sensors8-logical_camera
+[1.465s] -- Searching for <gz-sensors8> component [magnetometer]
+[1.465s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[1.465s] -- Searching for dependencies of gz-sensors8-magnetometer
+[1.466s] -- Searching for <gz-sensors8> component [navsat]
+[1.466s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[1.466s] -- Searching for dependencies of gz-sensors8-navsat
+[1.467s] -- Searching for <gz-sensors8> component [dvl]
+[1.467s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[1.467s] -- Searching for dependencies of gz-sensors8-dvl
+[1.467s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.468s] -- Searching for dependencies of gz-sensors8
+[1.482s] -- Looking for gz-math7 -- found version 7.5.2
+[1.482s] -- Looking for gz-common5 -- found version 5.7.1
+[1.482s] -- Looking for gz-transport13 -- found version 13.5.0
+[1.482s] -- Looking for gz-rendering8 -- found version 8.2.3
+[1.482s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.483s] -- Looking for sdformat14 -- found version 14.8.0
+[1.483s] -- Searching for <gz-sensors8> component [rendering]
+[1.483s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[1.484s] -- Searching for dependencies of gz-sensors8-rendering
+[1.484s] -- Searching for <gz-sensors8> component [rendering]
+[1.484s] -- Searching for <gz-sensors8> component [lidar]
+[1.485s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[1.485s] -- Searching for dependencies of gz-sensors8-lidar
+[1.485s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.485s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[1.486s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[1.486s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[1.486s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.487s] -- Searching for <gz-sensors8> component [camera]
+[1.487s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[1.487s] -- Searching for dependencies of gz-sensors8-camera
+[1.487s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.488s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[1.489s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[1.489s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[1.489s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[1.490s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[1.490s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[1.490s] -- Searching for <gz-sensors8> component [depth_camera]
+[1.490s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[1.491s] -- Searching for dependencies of gz-sensors8-depth_camera
+[1.491s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.491s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[1.492s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[1.492s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[1.492s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.492s] -- Searching for <gz-sensors8> component [thermal_camera]
+[1.493s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[1.493s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[1.493s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.493s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[1.494s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[1.494s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[1.495s] -- Looking for gz-rendering8 -- found version 8.2.3
+[1.495s] -- Looking for gz-math7 -- found version 7.5.2
+[1.495s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.510s] -- Looking for gz-sim8 - found
+[1.510s] 
+[1.510s] -- Compiling against Gazebo Harmonic
+[1.512s] -- RapidJSON found. Headers: /usr/include
+[1.519s] -- Found OpenCV: /usr (found version "4.6.0") 
+[1.519s] -- Checking for modules 'gstreamer-1.0;gstreamer-app-1.0'
+[1.535s] --   Found gstreamer-1.0, version 1.24.2
+[1.547s] --   Found gstreamer-app-1.0, version 1.24.2
+[1.684s] -- Configuring done (1.7s)
+[1.710s] -- Generating done (0.0s)
+[1.715s] -- Build files have been written to: /home/celil/ardupilot_gazebo/build/ardupilot_gazebo
+[1.724s] Invoked command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/home/celil/iha_ws/install/px4_ros_com:/home/celil/iha_ws/install/px4_msgs:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/celil/ardupilot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/celil/ardupilot_gazebo/install/ardupilot_gazebo
+[1.725s] Invoking command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/home/celil/iha_ws/install/px4_ros_com:/home/celil/iha_ws/install/px4_msgs:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/celil/ardupilot_gazebo/build/ardupilot_gazebo -- -j16 -l16
+[1.779s] [ 10%] Building CXX object CMakeFiles/GstCameraPlugin.dir/src/GstCameraPlugin.cc.o
+[1.782s] [ 20%] Building CXX object CMakeFiles/ParachutePlugin.dir/src/ParachutePlugin.cc.o
+[1.782s] [ 30%] Building CXX object CMakeFiles/ArduPilotPlugin.dir/src/SocketUDP.cc.o
+[1.785s] [ 50%] Building CXX object CMakeFiles/CameraZoomPlugin.dir/src/CameraZoomPlugin.cc.o
+[1.785s] [ 50%] Building CXX object CMakeFiles/ArduPilotPlugin.dir/src/Util.cc.o
+[1.786s] [ 60%] Building CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o
+[6.898s] [ 70%] Linking CXX shared library libParachutePlugin.so
+[7.122s] [ 70%] Built target ParachutePlugin
+[7.213s] [ 80%] Linking CXX shared library libCameraZoomPlugin.so
+[7.434s] [ 80%] Built target CameraZoomPlugin
+[7.726s] [ 90%] Linking CXX shared library libArduPilotPlugin.so
+[7.803s] [100%] Linking CXX shared library libGstCameraPlugin.so
+[7.940s] [100%] Built target ArduPilotPlugin
+[8.061s] [100%] Built target GstCameraPlugin
+[8.068s] Invoked command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/home/celil/iha_ws/install/px4_ros_com:/home/celil/iha_ws/install/px4_msgs:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/celil/ardupilot_gazebo/build/ardupilot_gazebo -- -j16 -l16
+[8.075s] Invoking command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/home/celil/iha_ws/install/px4_ros_com:/home/celil/iha_ws/install/px4_msgs:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/celil/ardupilot_gazebo/build/ardupilot_gazebo
+[8.080s] -- Install configuration: ""
+[8.081s] -- Execute custom install script
+[8.081s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/lib/ardupilot_gazebo/libArduPilotPlugin.so
+[8.090s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/lib/ardupilot_gazebo/libParachutePlugin.so
+[8.095s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/lib/ardupilot_gazebo/libCameraZoomPlugin.so
+[8.100s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/lib/ardupilot_gazebo/libGstCameraPlugin.so
+[8.109s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/config/gazebo-iris-gimbal.parm
+[8.121s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_1d/meshes/base_arm.dae
+[8.128s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_1d/meshes/base_main.dae
+[8.138s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_1d/meshes/tilt.dae
+[8.147s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_1d/model.config
+[8.156s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_1d/model.sdf
+[8.165s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_2d/meshes/base_arm.dae
+[8.173s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_2d/meshes/base_main.dae
+[8.179s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_2d/meshes/tilt.dae
+[8.186s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_2d/model.config
+[8.192s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_2d/model.sdf
+[8.204s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/base_plate.dae
+[8.211s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/camera_enclosure.dae
+[8.218s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/roll_arm.dae
+[8.224s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d/meshes/yaw_arm.dae
+[8.230s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d/model.config
+[8.236s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/gimbal_small_3d/model.sdf
+[8.245s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_ardupilot/model.config
+[8.251s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_ardupilot/model.sdf
+[8.259s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_gimbal/model.config
+[8.267s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_gimbal/model.sdf
+[8.275s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_standoffs/meshes/iris.dae
+[8.282s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_ccw.dae
+[8.289s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_cw.dae
+[8.297s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_standoffs/model.config
+[8.305s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/iris_with_standoffs/model.sdf
+[8.311s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/parachute_small/meshes/parachute_small.dae
+[8.317s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/parachute_small/model.config
+[8.327s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/parachute_small/model.sdf
+[8.334s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_beton/materials/textures/qr_code.png
+[8.343s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_beton/model.config
+[8.352s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_beton/model.sdf
+[8.360s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_cimen/materials/textures/qr_code.png
+[8.370s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_cimen/model.config
+[8.377s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_cimen/model.sdf
+[8.386s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_egimli/materials/textures/qr_code.png
+[8.395s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_egimli/model.config
+[8.401s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_egimli/model.sdf
+[8.410s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_engelli/materials/textures/qr_code.png
+[8.415s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_engelli/model.config
+[8.425s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_engelli/model.sdf
+[8.434s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_golge/materials/textures/qr_code.png
+[8.442s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_golge/model.config
+[8.449s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_golge/model.sdf
+[8.455s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karisik/materials/textures/qr_code.png
+[8.461s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karisik/model.config
+[8.467s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karisik/model.sdf
+[8.473s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydinlatma/materials/textures/qr_code.png
+[8.479s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydinlatma/model.config
+[8.485s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydinlatma/model.sdf
+[8.491s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_karsiaydınlatma/materials/textures/qr_code.png
+[8.498s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_kismigolge/materials/textures/qr_code.png
+[8.507s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_kismigolge/model.config
+[8.516s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_kismigolge/model.sdf
+[8.522s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_parlak/materials/textures/qr_code.png
+[8.530s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_parlak/model.config
+[8.536s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_parlak/model.sdf
+[8.545s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_target/materials/textures/qr_code.png
+[8.559s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_target/model.config
+[8.574s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_target/model.sdf
+[8.584s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_toprak/materials/textures/qr_code.png
+[8.595s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_toprak/model.config
+[8.604s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/qr_toprak/model.sdf
+[8.613s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_AmbientOcclusion.jpg
+[8.622s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Color copy.jpg
+[8.631s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Color.jpg
+[8.639s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Displacement.jpg
+[8.646s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_NormalGL.jpg
+[8.655s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures/Grass004_2K_Roughness.jpg
+[8.661s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/materials/textures/runway.png
+[8.667s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/meshes/airfield.dae
+[8.673s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/model.config
+[8.679s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/runway/model.sdf
+[8.691s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/materials/textures/wing.png
+[8.700s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/meshes/parachute_small.dae
+[8.707s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/meshes/wing.dae
+[8.715s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/model.config
+[8.722s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/model.sdf
+[8.729s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/thumbnails/1.png
+[8.738s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/thumbnails/2.png
+[8.743s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/thumbnails/3.png
+[8.752s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/thumbnails/4.png
+[8.762s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr/thumbnails/5.png
+[8.772s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr_with_ardupilot/model.config
+[8.781s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr_with_ardupilot/model.sdf
+[8.787s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr_with_parachute/model.config
+[8.796s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/models/zephyr_with_parachute/model.sdf
+[8.802s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds/gimbal.sdf
+[8.811s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds/iris_runway.sdf
+[8.818s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds/iris_warehouse.sdf
+[8.827s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds/zephyr_parachute.sdf
+[8.837s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds/zephyr_runway.sdf
+[8.847s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/environment/ardupilot_gazebo.dsv
+[8.855s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/environment/ardupilot_gazebo.sh
+[8.864s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ament_index/resource_index/package_run_dependencies/ardupilot_gazebo
+[8.873s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ament_index/resource_index/parent_prefix_path/ardupilot_gazebo
+[8.881s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/environment/ament_prefix_path.sh
+[8.888s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/environment/ament_prefix_path.dsv
+[8.894s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/environment/path.sh
+[8.900s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/environment/path.dsv
+[8.907s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/local_setup.bash
+[8.916s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/local_setup.sh
+[8.925s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/local_setup.zsh
+[8.934s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/local_setup.dsv
+[8.943s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/package.dsv
+[8.952s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ament_index/resource_index/packages/ardupilot_gazebo
+[8.961s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/cmake/ardupilot_gazeboConfig.cmake
+[8.969s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/cmake/ardupilot_gazeboConfig-version.cmake
+[8.975s] -- Symlinking: /home/celil/ardupilot_gazebo/install/ardupilot_gazebo/share/ardupilot_gazebo/package.xml
+[8.985s] Invoked command in '/home/celil/ardupilot_gazebo/build/ardupilot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/celil/iha_ws/install/teknofest_kamikaze:/home/celil/iha_ws/install/px4_ros_com:/home/celil/iha_ws/install/px4_msgs:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/celil/ardupilot_gazebo/build/ardupilot_gazebo

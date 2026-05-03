@@ -1,0 +1,1 @@
+/home/celil/ardupilot_gazebo/build/ardupilot_gazebo/ament_cmake_environment_hooks/local_setup.sh
